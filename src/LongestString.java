@@ -53,13 +53,13 @@ public class LongestString {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Your first String?");
-        String X = scan.nextLine();
+        String firstWord = scan.nextLine();
         System.out.println("Your second String");
-        String Y = scan.nextLine();
+        String secondWord = scan.nextLine();
 
-        int m = X.length();
-        int n = Y.length();
+        int m = firstWord.length();
+        int n = secondWord.length();
 
-        printStringChain(X, Y, m, n);
+        printStringChain(firstWord, secondWord, m, n);
     }
 }
